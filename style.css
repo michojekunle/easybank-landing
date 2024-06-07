@@ -390,5 +390,27 @@ html {
         margin-top: 65%;
         max-width: 100%;
     }
+}
 
+.section-two {
+    padding-inline: 12rem;
+}
+
+.section-two-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    max-width: 72rem;
+}
+
+.section-two-header h1 {
+    font-weight: bold;
+    font-size: 3.1rem;
+    color: var(--dark-blue);
+}
+
+.section-two-header p {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: var(--grayish-blue);
 }
